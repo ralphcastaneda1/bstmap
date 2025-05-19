@@ -1,0 +1,15 @@
+Test Parameters:
+string length: 1000
+number of insertions: 50,000
+
+Performance:
+class ULLMap: 16.72 sec
+class BSTMap: 0.46 sec
+Java's Built-in TreeMap: 0.43 sec
+Java's Built-in HashMap: 0.45 sec
+
+
+Analysis:
+The ULLMap was the slowest which matches our intuition of the runtime of unordered
+linked lists. The BSTMap was very similar in runtime to the TreeMap and HashMap all
+centered right around the mid 40-second mark.
